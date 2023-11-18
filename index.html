@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 1 - Escribo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>    
+    <section>   
+        <div class="container mt-5">
+            <div class="formulario text-center">
+                <form>
+                    <div>
+                        <div class="icon-center">
+                            <h5> Teste 1 - Escribo</h5>
+                        </div>
+                        <label class="mt-4" for="value">Informe um valor inteiro positivo para calcular:</label>
+                        <input type="number" name="value" id="userValue">
+                    </div>
+                    <br>
+                    <div class="btncalcular mt-3">
+                        <button type="button" class="btn btn-primary" id="btnsumTotal">Calcular</button>
+                        <button type="reset" class="btn btn-info">Limpar</button>
+                    </div>
+                </form>
+
+                <div class="card-body mt-5">
+                    <div class="card-body">
+                        <h5 class="card-title">O resultado da somatória foi:</h5>
+                        <p class="card-text" id="showResult"></p>
+                    </div>
+                </div>
+            </div>
+        </div>               
+    </section>        
+</body>
+
+</html>
